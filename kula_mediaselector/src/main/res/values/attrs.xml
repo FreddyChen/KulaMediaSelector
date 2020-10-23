@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CTextButton">
+        <attr name="kula_media_selector_ctb_normalBackgroundColor" format="color|reference" />
+        <attr name="kula_media_selector_ctb_pressedBackgroundColor" format="color|reference" />
+        <attr name="kula_media_selector_ctb_disabledBackgroundColor" format="color|reference" />
+        <attr name="kula_media_selector_ctb_cornerRadius" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CMaxHeightRecyclerView">
+        <attr name="kula_media_selector_chrv_maxHeight" format="dimension|reference"/>
+    </declare-styleable>
+</resources>

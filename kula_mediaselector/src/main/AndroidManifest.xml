@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.freddy.kulamediaselector">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.AlbumActivity"
+            android:configChanges="locale|orientation|screenSize|keyboardHidden|navigation"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>
